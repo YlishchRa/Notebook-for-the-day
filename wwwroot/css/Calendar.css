@@ -1,0 +1,55 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+}
+
+.day {
+    padding: 10px 0;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+    .dates .date {
+        cursor: pointer;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .dates .current-month {
+        background-color: #f0f0f0;
+    }
+
+    .dates .other-month {
+        color: #ccc;
