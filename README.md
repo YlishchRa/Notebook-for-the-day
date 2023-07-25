@@ -1,36 +1,34 @@
-# Додаток "Записник на день" (ASP)
-Це додаток на ASP, який дозволяє створювати та відстежувати завдання на день. Використовується база даних SQLite3 для зберігання інформації про завдання.
+# Daily Task Manager (ASP)
+This ASP application allows users to create and track daily tasks using an SQLite3 database for data storage.
 
-### Основні можливості
-1. Створення завдань: Користувач може створювати нові завдання, вказуючи назву, опис та дату виконання.
-2. Збереження в базі даних: Після створення завдання, воно зберігається в базі даних SQLite3.
-3. Відображення завдань на сайті: Завдання, які були створені, відображаються на сайті в таблиці, де користувач може легко переглянути назву, опис та дату виконання.
-4. Сторінка календаря: Додаток також має сторінку календаря, де користувач може переглядати календарі по роках, місяцям та дням.
-5. Відображення завдань за день: Вибравши певний день у календарі, користувач може побачити всі завдання, які були створені в цей день.
+### Key Features
+1. Task Creation: Users can create new tasks, providing a title, description, and due date.
+2. Database Storage: After creating a task, it is saved in the SQLite3 database.
+3. Task Display: Created tasks are displayed on the website in a table, making it easy for users to view titles, descriptions, and due dates.
+4. Calendar Page: The application includes a calendar page, where users can view calendars by years, months, and days.
+5. Day-wise Task View: By selecting a specific day on the calendar, users can see all tasks created on that day.
 
-### Інструкція з встановлення
-1. Завантажте код додатку з репозиторію.
-2. Встановіть необхідні залежності, якщо вони відсутні.
-3. Запустіть додаток на своєму сервері.
+### Installation Guide
+Download the application code from the repository.
+Install the necessary dependencies, if not already present.
+Run the application on your server.
 
-### Залежності
-* Для успішної роботи додатку необхідно мати наступні залежності:
+### Dependencies
+The following dependencies are required for the successful operation of the application:
 
-* ASP.NET (версія X.X або новіше)
-* SQLite3 (включений в стандартний пакет ASP.NET)
+ASP.NET (version X.X or higher)
+SQLite3 (included in the standard ASP.NET package)
 
-### Налаштування бази даних
-База даних SQLite3 повинна бути налаштована перед використанням додатку. Зазвичай це вже налаштовано в стандартному пакеті ASP.NET. Якщо вам потрібна додаткова настройка або зміна бази даних, ви можете знайти інструкції у документації ASP.NET.
+### Database Configuration
+The SQLite3 database must be configured before using the application. Usually, this is already set up in the standard ASP.NET package. If additional configuration or database changes are needed, instructions can be found in the ASP.NET documentation.
 
-### Вкладення
-* У репозиторії міститься додаткова документація:
+### Attachments
+The repository contains additional documentation:
+docs: General project documentation.
+screenshots: App screenshots to provide an overview of its appearance.
 
-* docs: Загальна документація проекту.
-* screenshots: Знімки екрана додатку, щоб дати уявлення про його вигляд.
+### Support
+If you have any questions or encounter issues, please create an issue in the repository. We are happy to assist you!
 
-### Допомога та підтримка
-Якщо у вас є питання або ви зіткнулися з проблемами, будь ласка, створіть issue в репозиторії. Ми раді допомогти вам!
-
-
-### Ліцензія
-Цей додаток поширюється під ліцензією MIT. Ви можете вільно використовувати, змінювати та поширювати його згідно з умовами ліцензії.
+### License
+This application is distributed under the MIT license. You are free to use, modify, and distribute it in accordance with the license terms.
